@@ -1,7 +1,8 @@
-#include"main.h";
+#include"main.h"
 /**
- * Main - prints _putchar
- * Return:0 Success
+ * main-main block 
+ * description:a function that writes _putchar
+ * Return:always zero
  */
 int main(void)
 {
@@ -14,6 +15,5 @@ int main(void)
 	_putchar('a');
 	_putchar('r');
 	_putchar('\n');
-
 		return (0);
 }
