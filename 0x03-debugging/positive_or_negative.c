@@ -6,12 +6,12 @@
  * print the last digit of the number stored in variable n
  * Return:Always zero
  */
-int main(void)
+void positive_or_negative(int i)
 {
 int n;
 
 srand time(time(0));
-n = rand() - RAND MAX / 2;
+n = i;
 if (n > 0)
 	printf("%d is positive\n",n)
 if (n == 0)
